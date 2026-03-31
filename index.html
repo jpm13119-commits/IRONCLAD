@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IRONCLAD | Premium Gym Accessories</title>
+  <meta name="description" content="Elite gym accessories built for warriors. Shop lifting belts, straps, gloves, and more." />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow+Condensed:wght@300;400;600;700&family=Barlow:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#" class="logo">IRON<span>CLAD</span></a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#products">Shop</a>
+        <a href="#about">About</a>
+        <a href="#features">Features</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="nav-right">
+        <button class="cart-btn" id="cartBtn" aria-label="Open cart">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></svg>
+          <span class="cart-count" id="cartCount">0</span>
+        </button>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">Built for the elite</p>
+      <h1 class="hero-title">FORGE YOUR<br /><span>LEGACY</span></h1>
+      <p class="hero-sub">Premium gym accessories engineered for those who train with purpose. No limits. No excuses.</p>
+      <div class="hero-cta">
+        <a href="#products" class="btn btn-primary">Shop Now</a>
+        <a href="#about" class="btn btn-ghost">Our Story</a>
+      </div>
+    </div>
+    <div class="hero-stats">
+      <div class="stat"><span class="stat-num">12K+</span><span class="stat-label">Athletes</span></div>
+      <div class="stat-divider"></div>
+      <div class="stat"><span class="stat-num">98%</span><span class="stat-label">Satisfaction</span></div>
+      <div class="stat-divider"></div>
+      <div class="stat"><span class="stat-num">5★</span><span class="stat-label">Rating</span></div>
+    </div>
+    <a href="#products" class="scroll-down" aria-label="Scroll down"><span></span></a>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee-band">
+    <div class="marquee-track">
+      <span>FREE SHIPPING OVER $75</span><span class="dot">◆</span>
+      <span>PREMIUM QUALITY GUARANTEED</span><span class="dot">◆</span>
+      <span>30-DAY RETURNS</span><span class="dot">◆</span>
+      <span>ELITE ATHLETE APPROVED</span><span class="dot">◆</span>
+      <span>FREE SHIPPING OVER $75</span><span class="dot">◆</span>
+      <span>PREMIUM QUALITY GUARANTEED</span><span class="dot">◆</span>
+      <span>30-DAY RETURNS</span><span class="dot">◆</span>
+      <span>ELITE ATHLETE APPROVED</span><span class="dot">◆</span>
+    </div>
+  </div>
+
+  <!-- PRODUCTS -->
+  <section class="products" id="products">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">Arsenal</p>
+        <h2 class="section-title">SHOP THE GEAR</h2>
+        <p class="section-sub">Every piece designed with one goal — to make you unstoppable.</p>
+      </div>
+      <div class="filter-tabs">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="belts">Belts</button>
+        <button class="filter-btn" data-filter="straps">Straps</button>
+        <button class="filter-btn" data-filter="gloves">Gloves</button>
+        <button class="filter-btn" data-filter="accessories">Accessories</button>
+      </div>
+      <div class="products-grid" id="productsGrid"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="container about-inner">
+      <div class="about-text">
+        <p class="section-eyebrow">Who We Are</p>
+        <h2 class="section-title">BUILT BY<br />LIFTERS,<br />FOR LIFTERS</h2>
+        <p>IRONCLAD was founded in a garage by two competitive powerlifters who were sick of gear that broke, slipped, or let them down mid-rep. Every product we make is field-tested under real weight by real athletes before it ever ships.</p>
+        <p>We don't chase trends. We chase PRs.</p>
+        <a href="#products" class="btn btn-primary">See the Gear</a>
+      </div>
+      <div class="about-visual">
+        <div class="about-card card-1">
+          <span class="card-icon">🏋️</span>
+          <strong>Competition Tested</strong>
+          <p>Proven on the platform, not just in the lab.</p>
+        </div>
+        <div class="about-card card-2">
+          <span class="card-icon">⚙️</span>
+          <strong>Precision Engineered</strong>
+          <p>Tolerances matter. We sweat the details.</p>
+        </div>
+        <div class="about-card card-3">
+          <span class="card-icon">🛡️</span>
+          <strong>Lifetime Warranty</strong>
+          <p>If it breaks, we replace it. Period.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="features" id="features">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">Why Ironclad</p>
+        <h2 class="section-title">THE IRONCLAD EDGE</h2>
+      </div>
+      <div class="features-grid">
+        <div class="feature-item">
+          <div class="feature-icon">🚚</div>
+          <h3>Free Shipping</h3>
+          <p>Orders over $75 ship free to the continental US. Fast, reliable, trackable.</p>
+        </div>
+        <div class="feature-item">
+          <div class="feature-icon">🔄</div>
+          <h3>30-Day Returns</h3>
+          <p>Not feeling it? Send it back, no questions asked within 30 days.</p>
+        </div>
+        <div class="feature-item">
+          <div class="feature-icon">💪</div>
+          <h3>Pro-Grade Materials</h3>
+          <p>We source the same materials used in IPF and USPA competition gear.</p>
+        </div>
+        <div class="feature-item">
+          <div class="feature-icon">🎯</div>
+          <h3>Expert Support</h3>
+          <p>Real lifters on our support team. We speak your language.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">The Community</p>
+        <h2 class="section-title">WHAT THEY SAY</h2>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p>"The lifting belt is an absolute beast. I've hit multiple PRs since switching and it hasn't budged an inch."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">MR</div>
+            <div><strong>Marcus R.</strong><span>Powerlifter — 700lb squat</span></div>
+          </div>
+        </div>
+        <div class="testimonial-card featured">
+          <div class="stars">★★★★★</div>
+          <p>"I've tried every brand out there. IRONCLAD wrist wraps are the only ones that actually stay tight through an entire session. Game changer."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">JT</div>
+            <div><strong>Jordan T.</strong><span>Competitive Bodybuilder</span></div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p>"Lifetime warranty is no joke. They replaced my straps two years in, zero hassle. That's how you build loyalty."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">SL</div>
+            <div><strong>Sarah L.</strong><span>CrossFit Coach</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- NEWSLETTER -->
+  <section class="newsletter" id="contact">
+    <div class="container newsletter-inner">
+      <div class="newsletter-text">
+        <h2>JOIN THE IRONCLAD ARMY</h2>
+        <p>Drops, deals, and training intel — straight to your inbox.</p>
+      </div>
+      <form class="newsletter-form" id="newsletterForm" onsubmit="handleNewsletter(event)">
+        <input type="email" placeholder="your@email.com" required />
+        <button type="submit" class="btn btn-primary">Subscribe</button>
+      </form>
+      <p class="newsletter-note" id="newsletterMsg"></p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="#" class="logo">IRON<span>CLAD</span></a>
+        <p>Elite gear for elite athletes.<br />No limits. No excuses.</p>
+        <div class="social-links">
+          <a href="#" aria-label="Instagram">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </a>
+          <a href="#" aria-label="YouTube">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22.54 6.42a2.78 2.78 0 00-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46A2.78 2.78 0 001.46 6.42 29 29 0 001 12a29 29 0 00.46 5.58 2.78 2.78 0 001.95 1.96C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 001.95-1.96A29 29 0 0023 12a29 29 0 00-.46-5.58z"/><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02"/></svg>
+          </a>
+          <a href="#" aria-label="TikTok">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.33-6.34V8.69a8.2 8.2 0 004.79 1.53V6.77a4.85 4.85 0 01-1.02-.08z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer-links">
+        <h4>Shop</h4>
+        <a href="#products">All Products</a>
+        <a href="#products">Lifting Belts</a>
+        <a href="#products">Wrist Wraps</a>
+        <a href="#products">Straps</a>
+        <a href="#products">Gloves</a>
+      </div>
+      <div class="footer-links">
+        <h4>Company</h4>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+        <a href="#">Blog</a>
+        <a href="#">Ambassadors</a>
+      </div>
+      <div class="footer-links">
+        <h4>Support</h4>
+        <a href="#">FAQ</a>
+        <a href="#">Shipping Policy</a>
+        <a href="#">Returns</a>
+        <a href="#">Warranty</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 IRONCLAD. All rights reserved. &nbsp;|&nbsp; <a href="#">Privacy Policy</a> &nbsp;|&nbsp; <a href="#">Terms of Service</a></p>
+    </div>
+  </footer>
+
+  <!-- CART DRAWER -->
+  <div class="cart-overlay" id="cartOverlay"></div>
+  <aside class="cart-drawer" id="cartDrawer">
+    <div class="cart-header">
+      <h3>YOUR CART</h3>
+      <button class="cart-close" id="cartClose" aria-label="Close cart">✕</button>
+    </div>
+    <div class="cart-items" id="cartItems">
+      <p class="cart-empty">Your cart is empty. Time to gear up.</p>
+    </div>
+    <div class="cart-footer" id="cartFooter" style="display:none">
+      <div class="cart-total">
+        <span>Total</span><span id="cartTotal">$0.00</span>
+      </div>
+      <button class="btn btn-primary" style="width:100%">Checkout</button>
+      <p class="cart-shipping-note">Free shipping on orders over $75</p>
+    </div>
+  </aside>
+
+  <!-- TOAST -->
+  <div class="toast" id="toast"></div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
